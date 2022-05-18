@@ -1,2 +1,30 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__language/header__language.css);
+@import url(../blocks/header/__switch/header__switch.css);
+@import url(../blocks/header/__language/_english/header__language_english.css);
+@import url(../blocks/header/__switch/_active/header__switch_active.css);
+
+@font-face {
+  font-family: 'Inter Regular';
+  src: local('Inter Regular'),
+    url('../vendor/Inter/Inter-Regular.woff2') format('woff2'),
+    url('../vendor/Inter/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter Black';
+  src: local('Inter Black'),
+    url('../vendor/Inter/Inter-Black.woff2') format('woff2'),
+    url('../vendor/Inter/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: local('Inter Bold'),
+    url('../vendor/Inter/Inter-Bold.woff2') format('woff2'),
+    url('../vendor/Inter/Inter-Bold.woff') format('woff');
+}
