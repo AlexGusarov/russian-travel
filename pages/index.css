@@ -3,18 +3,18 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__language/header__language.css);
-@import url(../blocks/header/__switch/header__switch.css);
-@import url(../blocks/header/__language/_english/header__language_english.css);
-@import url(../blocks/header/__switch/_active/header__switch_active.css);
-
+@import url(../blocks/header/__heading/header__heading.css);
+@import url(../blocks/header/__subline-heading/header__subline-heading.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__lang-container/header__lang-container.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @font-face {
   font-family: 'Inter Regular';
   src: local('Inter Regular'),
     url('../vendor/Inter/Inter-Regular.woff2') format('woff2'),
     url('../vendor/Inter/Inter-Regular.woff') format('woff');
 }
-
 @font-face {
   font-family: 'Inter Black';
   src: local('Inter Black'),
