@@ -1,4 +1,4 @@
-.header__subline-heading {
+.lead__subtitle {
   font-family: 'Inter Regular';
   font-style: normal;
   font-weight: 400;
@@ -6,10 +6,11 @@
   line-height: 1.2;
   text-align: center;
   margin: 32px 0 0 0;
+  width: 640px;
 }
 
 @media screen and (max-width: 720px) {
-  .header__subline-heading {
+  .lead__subtitle {
     margin-top: 16px;
     font-size: 16px;
     line-height: 1.25;
