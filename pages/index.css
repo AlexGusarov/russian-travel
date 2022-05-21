@@ -13,3 +13,6 @@
 @import url(../blocks/section/__caption/section__caption.css);
 @import url(../blocks/section/__title/_intro/section__title_intro.css);
 @import url(../blocks/section/__list/section__list.css);
+@import url(../blocks/section/__thick/section__thick.css);
+@import url(../blocks/mosaic/mosaic.css);
+@import url(../blocks/mosaic/__item/mosaic__item.css);

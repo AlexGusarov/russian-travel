@@ -1,0 +1,4 @@
+.mosaic__item {
+  object-fit: contain;
+  width: 100%;
+}
