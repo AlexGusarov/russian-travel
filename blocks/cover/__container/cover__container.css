@@ -23,7 +23,6 @@
   justify-content: center;
   position: relative;
   z-index: 0;
-  box-sizing: border-box;
 }
 
 .cover__container::before {
