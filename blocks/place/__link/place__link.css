@@ -1,0 +1,13 @@
+.place__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

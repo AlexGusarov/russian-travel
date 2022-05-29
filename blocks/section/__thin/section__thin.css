@@ -1,4 +1,9 @@
 .section__thin {
   width: calc(100% - 100px * 2);
-  border: 1px solid green;
+}
+
+@media screen and (max-width: 1150px) {
+  .section__thin {
+    width: 100%;
+  }
 }

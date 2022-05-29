@@ -1,0 +1,17 @@
+.header__link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+@media screen and (max-width: 650px) {
+  .header__link-container {
+    padding-top: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
