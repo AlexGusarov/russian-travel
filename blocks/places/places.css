@@ -1,11 +1,24 @@
 .places {
-  padding-top: 86px;
+  width: 100%;
+  padding: 92px 148px 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1025px) {
+  .places {
+    padding: 92px 48px 0;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .places {
+    padding: 88px 24px 0;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .places {
-    padding-top: 57px;
+    padding: 64px 0 0;
   }
 }

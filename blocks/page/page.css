@@ -1,20 +1,14 @@
 .page {
   max-width: 1280px;
   color: #fff;
-  font-family: 'Inter';
-  padding: 28px 48px 24px;
-  overflow: hidden;
-  position: relative;
-}
-
-@media screen and (max-width: 790px) {
-  .page {
-    padding: 28px 24px 24px;
-  }
+  padding: 28px 0 24px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 650px) {
   .page {
-    padding: 16px 16px 24px;
+    padding: 16px 0 24px;
   }
 }
