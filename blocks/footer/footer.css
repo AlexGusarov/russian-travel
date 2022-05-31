@@ -14,13 +14,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 770px) {
-  .cover {
-    padding: 88px 24px 0;
-  }
-}
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
