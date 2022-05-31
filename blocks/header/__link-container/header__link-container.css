@@ -2,7 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 95px;
+  max-width: 95px;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: end;

@@ -2,3 +2,9 @@
   grid-area: description;
   align-self: flex-start;
 }
+
+@media screen and (max-width: 650px) {
+  .place__description {
+    padding: 0 16px;
+  }
+}

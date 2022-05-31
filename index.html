@@ -33,14 +33,16 @@
               Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.
             </p>
           </div>
-          <img
-            class="lead__image"
-            src="./images/lead-image.png"
-            alt="Карта путешествия"
-          />
-          <p class="lead__caption">ваша полка — верхняя</p>
+          <figure class="lead__figure">
+            <img
+              class="lead__image"
+              src="./images/lead-image.png"
+              alt="Карта путешествия"
+            />
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
-        <section class="section section__thin intro">
+        <section class="intro">
           <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
           <p class="intro__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
@@ -54,7 +56,7 @@
             проехала 20 тысяч километров по родной стране. Мы выбрали и описали
             некоторые интересные места, достойные вашего отпуска.
           </p>
-          <ul class="section__list intro__list">
+          <ul class="intro__list list">
             <li>Часовых поясов <span class="intro__item-span">11</span></li>
             <li>
               Объектов природного наследия ЮНЕСКО
@@ -70,8 +72,8 @@
             <li>Аэропортов <span class="intro__item-span">241</span></li>
           </ul>
         </section>
-        <section class="section">
-          <ul class="section__list photo-grid">
+        <section class="photo-grid">
+          <ul class="photo-grid__list list">
             <li>
               <img
                 class="photo-grid__item"
@@ -164,7 +166,9 @@
               <h2 class="place__heading">Куршская коса</h2>
               <div class="place__link-container">
                 <span class="place__url">url</span>
-                <a href="#" class="place__link link-opacity">park-kosa.ru</a>
+                <a href="http://park-kosa.ru" class="place__link link-opacity"
+                  >park-kosa.ru</a
+                >
               </div>
               <img
                 src="./images/place-cosa.png"
@@ -193,7 +197,9 @@
               <h2 class="place__heading">Кольский</h2>
               <div class="place__link-container">
                 <span class="place__url">url</span>
-                <a href="#" class="place__link link-opacity"
+                <a
+                  href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                  class="place__link link-opacity"
                   >National Geographic</a
                 >
               </div>
@@ -223,7 +229,11 @@
               <h2 class="place__heading">Алтай</h2>
               <div class="place__link-container">
                 <span class="place__url">url</span>
-                <a href="#" class="place__link link-opacity">Facebook</a>
+                <a
+                  href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                  class="place__link link-opacity"
+                  >Facebook</a
+                >
               </div>
               <img
                 src="./images/place-altai.png"
@@ -251,7 +261,9 @@
               <h2 class="place__heading">Зимний Байкал</h2>
               <div class="place__link-container">
                 <span class="place__url">url</span>
-                <a href="#" class="place__link link-opacity"
+                <a
+                  href="https://vk.com/baikalmile"
+                  class="place__link link-opacity"
                   >https://vk.com/baikalmile</a
                 >
               </div>
@@ -281,7 +293,7 @@
               <h2 class="place__heading">Карелия</h2>
               <div class="place__link-container">
                 <span class="place__url">url</span>
-                <a href="#" class="place__link link-opacity"
+                <a href="http://vodlozero.ru" class="place__link link-opacity"
                   >http://vodlozero.ru/</a
                 >
               </div>
@@ -307,19 +319,17 @@
             </li>
           </ul>
         </section>
-        <section class="section cover">
+        <section class="cover">
           <a
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             target="_blank"
             class="cover__link"
           >
-            <div class="cover__container">
-              <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-              <p class="cover__subtitle">
-                По мотивам учебной темы о Транссибе — путешествие от столицы до
-                Байкала на электричках.
-              </p>
-            </div>
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
           </a>
         </section>
       </main>
