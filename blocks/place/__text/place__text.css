@@ -1,6 +1,6 @@
 .place__text {
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 1.61;
   font-weight: 400;
