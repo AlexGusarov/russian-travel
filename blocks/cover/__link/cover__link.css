@@ -4,8 +4,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1184px;
-  height: 57.813vw;
+  padding: 20.69% 0;
   background-image: url('../../../images/cover-background.png');
   background-size: cover;
   background-position: center;
@@ -45,17 +44,20 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .cover__link {
-    height: 62.5vw;
+    padding: 19.04% 0;
   }
 }
 
-/* @media screen and (max-width: 950px) {
+@media screen and (max-width: 770px) {
   .cover__link {
-    left: -48px;
-    width: calc(100% + 48px * 2);
+    padding: 14.97% 0;
   }
 }
 
-} */
+@media screen and (max-width: 350px) {
+  .cover__link {
+    padding: 10.31% 0;
+  }
+}
